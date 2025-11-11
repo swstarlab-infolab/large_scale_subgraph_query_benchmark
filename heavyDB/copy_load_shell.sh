@@ -1,0 +1,1 @@
+cp ./load_shell.sh ${RAW_DATASET_PATH}/heavyai/LSQB

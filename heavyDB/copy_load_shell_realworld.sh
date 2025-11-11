@@ -1,0 +1,1 @@
+cp ./heavyDB/load_shell_realworld.sh ${RAW_DATASET_PATH}/heavyai/realworld
