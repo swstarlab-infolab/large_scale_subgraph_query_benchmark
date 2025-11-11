@@ -1,0 +1,9 @@
+SELECT count(*)
+FROM E1
+JOIN E7
+  ON E1.Id2 = E7.Id1
+JOIN E13
+  ON E7.Id2 = E13.Id1
+JOIN E15
+  ON E13.Id2 = E15.Id1
+  AND E15.Id2 = E1.Id1;
